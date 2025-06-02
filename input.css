@@ -1,4 +1,7 @@
 @import "tailwindcss";
+body{
+    position: relative;
+}
 .myback{
     /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.829)),
     url("./assets/profile-pic1.png");*/
