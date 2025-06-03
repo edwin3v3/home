@@ -10,25 +10,175 @@
     <nav class="bg-gray-400 mynav">
         <ul class="flex justify-around align-middle items-center">
             <li><a href="#landing" title="Edwin Murimi">EM</a></li>
-            <li><a href="">Work</a> </li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+             <li><a href="">About</a></li>
+             <li><a href="">Work</a> </li>
+             <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    <Section id="landing" class="h-screen w-screen bg-[#c9d4db] z-0 pt-[200px] px-[40px] myback">
-        <div class="myback-inside">
+    <!-- Main Landing Section -->
+    <Section id="landing" class="h-screen w-screen bg-[#c9d4db] z-0 pt-[200px] px-[80px] myback">
+        <div class="myback-inside font-[Cambria]">
 
-            <h4 class="top-[350px] font-bold text-[34px] text-[#803604] tracking-tight">15 Years in Tech</h4>
+            <h4 class="top-[350px] font-bold text-[34px] text-[#803604] tracking-tighter">15 Years in Tech</h4>
             <h1 class="font-extrabold mt-[5px] text-[65px] text-[#b6104a]">I cause ideas to come alive <br /> and
                 produce results</h1>
-            <div class="mt-[80px] flex w-[400px] justify-around">
-                <button class="bg-[#2e3a42] text-[#fff] rounded-lg px-4 py-2 hover:bg-gray-700 duration-300">Recent
+            <div class="mt-[80px] flex w-[350px] justify-around">
+                <button class="bg-[#2e3a42] text-[#fff] text-[17px] rounded-lg px-4 py-2 hover:bg-gray-700 duration-300">Recent
                     Projects</button>
-                <button class="bg-[#2e3a42] text-[#fff] rounded-lg px-4 py-2 hover:bg-gray-700 duration-300">Contact
+                <button class="bg-[#2e3a42] text-[#fff] text-[17px] rounded-lg px-4 py-2 hover:bg-gray-700 duration-300">Contact
                     Me</button>
             </div>
         </div>
     </Section>
+    <!-- End of main landing section -->
+
+    <!-- Start of Contact Section -->
+            <section class="page-section h-screen w-screen" id="Contact">
+                <div class="container">
+                    <!-- Contact Section Heading-->
+                    <h2 class="section-heading text-center mt-[120px] mb-0">Contact Us</h2>
+                    <!-- Icon Divider-->
+
+
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon">
+                            <svg class="w-[34px] h-[34px] text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                            </svg>
+                        </div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+            
+            
+            
+            
+            
+            
+            
+                    <!---My new contact form validate-->
+            
+            
+                    <!-- 
+                                    =======================================================================
+                    
+                                        This is a working contact form. To receive email, 
+                                        Replace YOUR_ACCESS_KEY_HERE with your actual Access Key.
+                    
+                                        Create Access Key here 👉 https://web3forms.com/
+                    
+                                        =======================================================================
+                                    -->
+            
+                    <div class="flex items-center">
+                        <div class="container mx-auto">
+                            <div class="max-w-xl mx-auto bg-white px-5 pb-1">
+                                <div class="text-center">
+                                    <p class="text-gray-400 dark:text-gray-400">
+                                        Fill up the form below to send us a message.
+                                    </p>
+                                </div>
+                                <div class="m-7">
+                                    <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation"
+                                        novalidate>
+                                        <input type="hidden" name="access_key" value="9276cf02-28ed-442d-b427-e243dcc5c3c4" />
+                                        <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+            
+            
+                                        <div class="flex mb-6 space-x-4">
+                                            <div class="w-full md:w-1/2">
+                                                <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First
+                                                    Name</label>
+                                                <input type="text" name="name" id="first_name" placeholder="John" required
+                                                    class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                                <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                                    Please provide your first name.
+                                                </div>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last
+                                                    Name</label>
+                                                <input type="text" name="last_name" id="lname" placeholder="Doe" required
+                                                    class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                                <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                                    Please provide your last name.
+                                                </div>
+                                            </div>
+                                        </div>
+            
+            
+                                        <div class="flex mb-6 space-x-4">
+                                            <div class="w-full md:w-1/2">
+                                                <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email
+                                                    Address</label>
+                                                <input type="email" name="email" id="email" placeholder="you@company.com" required
+                                                    class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                                <div class="empty-feedback text-red-400 text-sm mt-1">
+                                                    Please provide your email address.
+                                                </div>
+                                                <div class="invalid-feedback text-red-400 text-sm mt-1">
+                                                    Please provide a valid email address.
+                                                </div>
+                                            </div>
+            
+                                            <div class="w-full md:w-1/2">
+                                                <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone
+                                                    Number</label>
+                                                <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required
+                                                    class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+            
+                                                <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                                    Please provide your phone number.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-6">
+                                            <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your
+                                                Message</label>
+            
+                                            <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                                                class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                                                required></textarea>
+                                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                                Please enter your message.
+                                            </div>
+                                        </div>
+            
+                                        <!-- Step 1: Add this line -->
+                                        <div class="h-captcha" data-captcha="true"></div>
+            
+                                        <!-- Custom Confirmation / Success Page -->
+                                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            
+                                        <div class="mb-6 mt-3">
+                                            <button type="submit"
+                                                class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                                                Send Message
+                                            </button>
+                                        </div>
+                                        <p class="text-base text-center text-gray-400" id="result"></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+            
+            
+            
+            
+            
+            
+                </div>
+            </section>
+        <!-- End of Contact Section -->
+    
+
+    
+
 
 
 </body>
